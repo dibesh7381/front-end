@@ -19,6 +19,7 @@ export default function Profile() {
     fetch("https://d0455ed5b011.ngrok-free.app/profile", {
       headers: {
         Authorization: `Bearer ${token}`, // Token header me bhejo
+        "Content-Type": "application/json"
       },
     })
       .then(async (res) => {
