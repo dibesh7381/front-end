@@ -9,7 +9,7 @@ export default function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("https://d0455ed5b011.ngrok-free.app/signup", {
+    const res = await fetch("https://back-end-stfs.onrender.com/signup", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),

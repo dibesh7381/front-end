@@ -16,7 +16,7 @@ export default function Profile() {
       return;
     }
 
-    fetch("https://d0455ed5b011.ngrok-free.app/profile", {
+    fetch("https://back-end-stfs.onrender.com/profile", {
       headers: {
         Authorization: `Bearer ${token}`, // Token header me bhejo
         "Content-Type": "application/json"
