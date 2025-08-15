@@ -16,7 +16,7 @@ export default function Profile() {
       return;
     }
 
-    fetch("https://back-end-stfs.onrender.com/profile", {
+    fetch("https://back-end-1-vfjx.onrender.com/profile", {
       headers: {
         Authorization: `Bearer ${token}`, // Token header me bhejo
         "Content-Type": "application/json"
